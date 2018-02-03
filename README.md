@@ -20,7 +20,7 @@
 9. pip install plotly --upgrade
 
 
-## ------------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------
 This makes the graph of  "*Death rate,crude (per 1000 people)"* VS "*year*" of different countries using DASH plotly web framework.
 
 It imports the data present in .csv file and make the graph using this data .

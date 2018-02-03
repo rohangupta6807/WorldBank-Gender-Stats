@@ -1,0 +1,11 @@
+flask
+requests
+gunicorn
+
+# add new packages one per each line
+dash
+dash-renderer
+dash-core-components
+dash-html-components
+plotly
+pandas

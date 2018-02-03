@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: barkeeper89-hasura
+  data: null
+  kubeContext: barkeeper89
+  name: barkeeper89

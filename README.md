@@ -2,6 +2,16 @@
 
 ## Getting started
 
+What is it?
+
+This app makes a graph of  ""*Death rate,crude (per 1000 people)""*  VS  ""*year*"" of different countries using DASH plotly web framework.
+
+It imports the data present in .csv file and make the graph using this data .
+It helps to see the data in graphical manner and helps for prediction .
+
+WorldBank-Gender-Stats data present in Gender_StatsData.csv file
+http://databank.worldbank.org/data/download/Gender_Stats_csv.zip  
+
 ### Prerequisites
 
 - [Hasura CLI](https://docs.hasura.io/0.15/manual/install-hasura-cli.html)
@@ -19,10 +29,16 @@
 8. pip install dash-core-components==0.18.1 
 9. pip install plotly --upgrade
 
+## Deploy this project
+$ hasura quickstart hasura/base-python-dash
+$ cd base-python-dash
+$ git add . && git commit -m "Initial Commit"
+$ git push hasura master
+Now, your app will be running at https://dash.YOUR-CLUSTER-NAME.hasura-app.io (replace YOUR-CLUSTER-NAME with the name of your cluster). To get the name of your cluster
+$ hasura cluster status
+Navigate to another page https://dash.YOUR-CLUSTER-NAME.hasura-app.io/app1 to see a graph.
 
-## ------------------------------------------------------------------------------
-This makes the graph of  "*Death rate,crude (per 1000 people)"* VS "*year*" of different countries using DASH plotly web framework.
+## Support
+If you happen to get stuck anywhere, please mail me at gupta.rohan1711@gmail.com. Alternatively, if you find a bug, you can raise an issue here.
 
-It imports the data present in .csv file and make the graph using this data .
-It helps to see the data in graphical manner and helps for prediction .
 

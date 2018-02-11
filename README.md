@@ -31,12 +31,19 @@ http://databank.worldbank.org/data/download/Gender_Stats_csv.zip
 
 ## Deploy this project
 $ hasura quickstart hasura/base-python-dash
+
 $ cd base-python-dash
+
 $ git add . && git commit -m "Initial Commit"
+
 $ git push hasura master
+
 Now, your app will be running at https://dash.YOUR-CLUSTER-NAME.hasura-app.io (replace YOUR-CLUSTER-NAME with the name of your cluster). To get the name of your cluster
+
 $ hasura cluster status
+
 Navigate to another page https://dash.YOUR-CLUSTER-NAME.hasura-app.io/app1 to see a graph.
+
 
 ## Support
 If you happen to get stuck anywhere, please mail me at gupta.rohan1711@gmail.com. Alternatively, if you find a bug, you can raise an issue here.
